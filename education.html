@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Application Form</title>
+  </head>
+  <body>
+<fieldset>
+    <legend><h3>Employee Application Form</h3></legend>
+    <table>
+      <tbody>
+
+        <tr>
+          <td><label> Full Name:</label></td>
+          <td><input type="text" autofocus required maxlength="40" /></td>
+        </tr>
+        <tr>
+          <td><label>Email Address:</label></td>
+          <td><input type="text" placeholder="" required /></td>
+        </tr>
+        <td><label> Password:</label></td>
+        <td><input type="password" required /></td>
+        <tr>
+          <td><label>Contact Number: </label></td>
+          <td><input type="number" /></td>
+        </tr>
+        <tr>
+          <td><label> Profile Photo</label></td>
+          <td><input type="file" /></td>
+        </tr>
+        <tr>
+          <td>Date Of Birth</td>
+          <td><input type="date" /></td>
+        </tr>
+        <tr>
+          <td><label> Gender</label></td>
+          <td>
+            <input type="radio" name="gender" /> <label> Male</label>
+            <input type="radio" name="gender" /> <label> Female</label>
+            <input type="radio" name="gender" /> <label> Other</label>
+            <tr>
+              <td><label> Marital Status</label></td>
+
+              <td>
+                <input type="radio" name="Marital Status" /><label> yes</label>
+                <input type="radio" name="Marital Status" /><label> No</label>
+              </td>
+            </tr>
+            <tr>
+              <td><label> Known Tools and Technology</label></td>
+              <td>
+                <input type="checkbox" /><label>Angular</label>
+                <input type="checkbox" /><label> React</label>
+                <input type="checkbox" /><label> Python</label>
+                <input type="checkbox" /><label>Java</label>
+                <input type="checkbox" /><label> Jenkin</label>
+                <input type="checkbox" /><label> GIT</label>
+                <input type="checkbox" /><label>Database</label>
+              </td>
+            </tr>
+            <tr>
+              <td><label> Designation</label></td>
+              <td>
+                <select>
+                  <option value="UI developer">UI developer</option>
+                  <option value="Backend developer">Backend Developer</option>
+                  <option value="Full stack developer">
+                    Full stack developer
+                  </option>
+                  <option value="DevOps Engineer">DevOps Engineer</option>
+                  <option value="Tester">Tester</option>
+                </select>
+              </td>
+            </tr>
+
+            <tr>
+              <td><label> Country</label></td>
+              <td>
+                <select>
+                  <option value="readonly">India</option>
+                </select>
+              </td>
+            </tr>
+
+            <tr>
+              <td><label>Present Address</label></td>
+              <td>
+                <textarea rows="7"></textarea>
+              </td>
+            </tr>
+
+            <tr>
+              <td><button type="submit">Submit</button></td>
+            </tr>
+            <tr>
+              <td><button type="clear">clear</button></td>
+            </tr>
+          </td>
+        </tr>
+    
+
+      </tbody>
+    
+    </table>
+    
+  </fieldset>
+  </body>
+  
+
+</html>
